@@ -2,6 +2,6 @@
 #+ endpoint: https://query.wikidata.org/sparql
 
 SELECT * WHERE {
-  ?city ?areacode ?030 
+  ?city ?areacode "030" 
 } 
 LIMIT 10
