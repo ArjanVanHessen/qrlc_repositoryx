@@ -1,0 +1,4 @@
+#+ summary: eindpunt
+#+ endpoint: https://api.druid.datalegend.net/datasets/Arjan/Arjan-LOD/services/Arjan-LOD/sparql
+
+SELECT * WHERE {?s ?p ?o}
