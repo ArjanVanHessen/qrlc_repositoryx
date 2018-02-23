@@ -1,0 +1,7 @@
+#+ summary: je krijgt 10 regels van iets vanuit wikidata
+#+ endpoint: https://query.wikidata.org/sparql
+
+SELECT * WHERE {
+  ?city ?areacode ?030 
+} 
+LIMIT 10
